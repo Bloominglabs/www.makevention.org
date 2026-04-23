@@ -1,0 +1,5 @@
+{{ with .Page.Resources.Get (.Get "src") }}
+<video controls>
+    <source src="{{ .RelPermalink }}" type="video/mp4" />
+</video>
+{{ end }}

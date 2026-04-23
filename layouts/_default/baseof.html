@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Title }}</title>
+</head>
+<body>
+    <nav>
+        {{- range site.Menus.main }}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        {{- end }}
+    </nav>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+    <footer>
+        <p>Copyright {{ now.Year }} Makevention</p>
+    </footer>
+</body>
+</html>

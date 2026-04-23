@@ -1,0 +1,43 @@
+baseURL = 'https://www.makevention.org/'
+locale = 'en-us'
+title = 'Makevention'
+
+disableKinds = ['taxonomy']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Meet the Makers'
+    pageRef = 'meet-the-makers'
+    weight = 20
+  [[menus.main]]
+    name = 'Exhibitors'
+    pageRef = 'exhibitors'
+    weight = 30
+  [[menus.main]]
+    name = 'Volunteer'
+    pageRef = 'volunteer'
+    weight = 40
+  [[menus.main]]
+    name = 'Sponsors'
+    pageRef = 'sponsors'
+    weight = 50
+  [[menus.main]]
+    name = 'Map'
+    pageRef = 'map'
+    weight = 70
+  [[menus.main]]
+    name = 'Team'
+    pageRef = 'team'
+    weight = 70
+  [[menus.main]]
+    name = 'About'
+    pageRef = 'about'
+    weight = 80
